@@ -43,12 +43,12 @@
     position: relative;
     width: 350px;
 }
-.contact_right .inputBox .user{
+.inputBox .user{
     width: 100%;
     padding: 10px;
     border: 1px solid orange;
     border-radius: 20px;
-    color: red;
+    color: black;
     outline: none;
     font-size: 1em;
 }

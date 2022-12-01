@@ -1,16 +1,20 @@
-import { Box,Button,Image,Text } from '@chakra-ui/react';
-import React from 'react'
+import { Box,Button,DarkMode,Image,Text } from '@chakra-ui/react';
+import React, { useContext } from 'react'
 import "./Project.css";
 import "../../App.css";
+import { themeContext } from "../../Context";
 
 const Project = () => {
+  const theme=useContext(themeContext)
+  const darkMode=theme.state.darkMode;
+
   return (
     <div id="project" className='project_head' >
     <Box className='all_project'>
       <Text >Projects</Text>
     </Box>
     <Box className='data' >
-        <Box className='data1' >
+        <Box className='data1' style={{background: darkMode? "white" :"", color: darkMode? "black":""}}  >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>Dot & Key Clone</Text>
@@ -53,7 +57,7 @@ const Project = () => {
         </Box>
 {/* https://media.giphy.com/media/oGg1r3YPQ69hJMegy4/giphy.gif */}
 
-<Box className='data1' >
+<Box className='data1'  style={{background: darkMode? "white" :"", color: darkMode? "black":""}}  >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>Trips Villas </Text>
@@ -95,7 +99,7 @@ const Project = () => {
            </Box>
         </Box>
 
-        <Box className='data1' >
+        <Box className='data1'  style={{background: darkMode? "white" :"", color: darkMode? "black":""}} >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>KFC</Text>
@@ -138,7 +142,7 @@ const Project = () => {
            </Box>
         </Box>
         
-        <Box className='data1' >
+        <Box className='data1'  style={{background: darkMode? "white" :"", color: darkMode? "black":""}}  >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>Clockify Clone</Text>
@@ -182,7 +186,7 @@ const Project = () => {
         </Box>
 
     
-        <Box className='data1' >
+        <Box className='data1'  style={{background: darkMode? "white" :"", color: darkMode? "black":""}}  >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>Gearbest Clone</Text>
@@ -226,7 +230,7 @@ const Project = () => {
         </Box>
 
       
-        <Box className='data1' >
+        <Box className='data1'  style={{background: darkMode? "white" :"", color: darkMode? "black":""}}  >
            <Box className='project_content'>
             <Text as='h2' style={{color:"orange", textAlign:"center", fontStyle:"normal",
             fontWeight:"600",fontSize:"1.525rem"}}>Fabbag Clone</Text>

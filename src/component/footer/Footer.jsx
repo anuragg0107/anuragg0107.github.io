@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React,{useContext, useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import "./Footer.css";
 import {BsTelephoneForward} from "react-icons/bs";
@@ -7,7 +7,11 @@ import {CiLocationOn} from "react-icons/ci";
 import "../../App.css";
 import wave from "../../Assets/wave.png";
 import {Image,Box,Text,Input,FormControl,useToast, Button, UnorderedList, ListItem} from "@chakra-ui/react";
+import { themeContext } from "../../Context";
+
 const Footer = () => {
+  const theme=useContext(themeContext);
+  const darkMode=theme.state.darkMode;
   const toast=useToast();
    const toastIdRef=useRef()
   const form = useRef();
@@ -75,15 +79,15 @@ const Footer = () => {
                <form ref={form} onSubmit={sendEmail} className='contacts_form'>
                     <div className='inputBox'>
                     <input type="text" name="user_name"  className='user'  required='required' />
-                    <span>Name</span>
+                    <span style={{color: darkMode?'black':""}}>Name</span>
                     </div>
                    <div className='inputBox'>
                    <input type="email" name="user_email" className='user'  required='required'/>
-                   <span>Email</span>
+                   <span style={{color: darkMode?'black':""}}>Email</span>
                    </div>
                    <div className='inputBox'>
-                   <textarea name="message" className='user' required='required'    />
-                   <span>Message</span>
+                   <textarea name="message" className='user' placeholder='Message'    />
+                   {/* <span style={{color: darkMode?'black':""}}>Message</span> */}
                    </div>
                      <input type="submit" value="Send" borderRadius={"34px"}  colorScheme={"orange.400"} className='button send_btn'
                      onClick={()=>

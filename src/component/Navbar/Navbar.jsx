@@ -5,7 +5,7 @@ import "./Navbar.css";
 import "../../App.css"
 import {Link} from "react-scroll";
 import {FaBars,FaTimes} from "react-icons/fa";
-
+import Toggle from '../Toggle/Toggle';
 const Navbar = () => {
     const [data,setData]=useState(false)
 
@@ -17,7 +17,7 @@ const Navbar = () => {
     <Box className={ "header"}>
         <Box className="navbar_left">
         <Link to="/"><Text className="navbar_name">Portfolio</Text></Link>
-           <Text>Toggle</Text>
+          <Toggle />
         </Box>
     <Box className="navbar_right">
          <Box className="navbar_list">

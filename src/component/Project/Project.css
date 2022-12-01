@@ -44,6 +44,7 @@
       border: 7px solid var(--orangeCard);
       background-color: rgba(255,255,255,0.26);
       box-shadow: var(--boxShadow); 
+      
     }
   
     .project_content{
