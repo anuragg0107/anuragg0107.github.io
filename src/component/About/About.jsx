@@ -12,7 +12,7 @@ const About = () => {
    </Box>
    <Box className='about_container'>
     <Box className='image1_container'>
-      <SvgImg />
+      <SvgImg className="svg_img" />
     </Box>
     <Box className='about_me'>
       <Text marginBottom="10px">Hello! My name is Anurag Gupta & I enjoy <br/>

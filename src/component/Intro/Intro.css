@@ -106,7 +106,23 @@
 @media (width<=480px){
     .intro{
         flex-direction: column;
-        gap: 7rem;
-        height: 64rem;
+        /* gap: 7rem; */
+        /* height: 64rem; */
+    }
+    .intro_left{
+        position: relative;
+        top: 20%;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        width: 400%;
+        font-size: 32px;
+    }
+    .last_child{
+        width: 1000%;
+        height: 100px;
+        /* overflow: hidden; */
     }
 }

@@ -57,8 +57,12 @@
   @media screen and (max-width:1040px) {
     .skill_header{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 10px;
         margin-top: 20px;
+    }
+    .all_skills{
+        font-size: 40px;
+        font-weight: 500;
     }
 }

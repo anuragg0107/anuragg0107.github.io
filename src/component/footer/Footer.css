@@ -31,14 +31,6 @@
     gap: 2rem;
     align-items: center;
 }
-/* .contact_right .user{
-    width: 20rem;
-    height: 2rem;
-    padding: 0.3rem;
-    outline: none;
-    border: 2px solid var(--orange);
-    font-size: 16px;
-} */
 .contact_right .inputBox{
     position: relative;
     width: 350px;
@@ -58,7 +50,6 @@
     padding-top: 10px;
     pointer-events: none;
     font-size: 1em;
-    /* color: rgba(255,255,255,0.25); */
     text-transform: uppercase;
     transition: 0.5s;
 }
@@ -126,7 +117,8 @@ textarea{
 }
 .send_btn{
     width: 200px;
-   
+    position: relative;
+    left: 8%;
 }
 .contacts_form{
     display: flex;
@@ -177,24 +169,8 @@ textarea{
     margin-top: 8rem;
 
 }
-/* .icon_colour:before{
-    background: #000;
-    border-radius: 50%;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    transform: scale(.9);
-    transition: .5s;
-    width: 100%;
-    z-index: -1;
-}
-.icon_colour:after{
-    box-sizing: border-box;
-} */
+
 .icon_colour{
-    /* background: hsla(0,0%,100%,0.972)!important; */
     border-radius: 50%!important;
     font-size: 1.2em!important;
     height: 40px!important;
@@ -214,31 +190,23 @@ textarea{
          padding: 0;
          flex-direction: column;
          gap: 5rem;
-         height: 40rem;
+         height: 50rem;
+    }
+    .send_btn{
+        position: relative;
+        left: 5%;
     }
     .contact_right .user{
         width: 16rem;
     }
+    .f_content{
+        transform: scale(0.5);
+    }
+    .inputBox .user{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact_button{
+        font-size: 20px;
+    }
 } 
-/* .contact{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-}
-.contact>*{
-    margin:0;
-    box-sizing: border-box;
-}
-.contact_form{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-}
-.contact_left{
-    justify-content: flex-start;
-    width: 100%;
-} */

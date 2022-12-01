@@ -19,10 +19,10 @@ const Intro = () => {
         <Box className='intro'>
            <Box className='intro_left'>
                <Box className='intro_name'>
-                 <span style={{color: darkMode ? 'white' : " "}}>Hello
+                 <span className="flex" style={{color: darkMode ? 'white' : " "}}>Hello
                  <span className='wave' role={"img"}>👋🏻</span>
                  </span>
-                 <span style={{color: darkMode ? 'white' : " "}}>I'M
+                 <span className="name" style={{color: darkMode ? 'white' : " "}}>I'M
                      <strong style={{color: darkMode ? 'white' : " "}} style={{color:"rgb(227,64,95)",paddingLeft:"10px"}}>Anurag Gupta</strong>
                      </span>
                      <span className='last_child' style={{color: darkMode ? 'white' : " "}}>Frontend Developer who learn enjoy to creating things that live on the internet. I'm a passionate Developer, with
