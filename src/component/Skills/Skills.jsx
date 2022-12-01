@@ -6,10 +6,10 @@ import "../../App.css";
 const Skills = () => {
   return (
     <div id="skill" className='start_skills' >
-    <Box className='all_skills' marginTop={"40px"}>
-        <Text marginTop={"20px"}>Skills & Tools</Text>
+    <Box className='all_skills'>
+        <Text >Skills & Tools</Text>
     </Box>
-    <Box className='skill_header' marginTop={"60px"}>
+    <Box className='skill_header' >
         <Box className='button skills'>
             <Image className='skill_img'
             src="https://tazammul.in/static/media/html.6a342d61.svg"

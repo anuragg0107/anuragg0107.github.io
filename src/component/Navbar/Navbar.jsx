@@ -29,9 +29,10 @@ const Navbar = () => {
   {/* <ListItem className='li'> <Link to="contact" smooth={true} spy={true}>CONTACT</Link> </ListItem> */}
           </UnorderedList>
          </Box>
-         <Button className='button navbar_button'>
+         <Button className='button navbar_button' borderRadius={"34px"} colorScheme={"orange.400"}>
          <Link to="contact" smooth={true} spy={true}>CONTACT</Link>
          </Button>
+         {/* <button className='button navbar_button' colorScheme={"orange.400"}>add</button> */}
     </Box>
  
  {/* <Box  className='hamburger' onClick={handleClick}>

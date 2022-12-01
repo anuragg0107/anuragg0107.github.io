@@ -1,6 +1,6 @@
 .project_head{
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
   }
   .all_project{
     position: absolute;
@@ -10,9 +10,9 @@
    color: orange;
    font-size: 3rem;
    font-weight: 500;
-   
   }
   .all_project>*{
+    margin-bottom: 50px;
     border-radius: 10px;
     border-bottom: 4px solid orange;
   }

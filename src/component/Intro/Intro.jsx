@@ -31,7 +31,7 @@ const Intro = () => {
             <Type />
            </Box>
           <a href={Resume} download style={{textDecoration:"none"}}>
-          <Button className='button intro_button'>Hire me</Button>
+          <Button className='button intro_button' borderRadius={"34px"} colorScheme={"orange.400"}>Hire me</Button>
           </a>
            <Box className='intro_icon'>
             <Image src={Github} alt="github" />

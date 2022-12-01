@@ -4,8 +4,7 @@
 .skill_header{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    gap: 10px;
-    margin-top: 20px;
+    gap: 5px;
 }
 
 .skills{
@@ -13,8 +12,8 @@
     box-shadow: rgb(94 95 196 / 30%) 0px 0px 30px;
     cursor: pointer;
     border-radius: 10px;
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
     margin: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,6 @@
     padding: 2rem 1rem;
     object-fit: cover;
     transition:ease-in-out 0.3s ;
-   
 }
 .skills .skill_img{
    height: 50px;
