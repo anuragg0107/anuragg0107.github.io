@@ -8,15 +8,25 @@ import {FaBars,FaTimes} from "react-icons/fa";
 import Toggle from '../Toggle/Toggle';
 const Navbar = () => {
     const [data,setData]=useState(false)
-
+    const [color, setColor]=useState(false);
     const handleClick=()=>{
       setData(!data)
     }
+    const changeColor=()=>{
+     if(window.scrollY >= 100){
+      setColor(true)
+     }
+     else{
+      setColor(false)
+     }
+    }
+    window.addEventListener("scroll",changeColor)
   return (
     <div>
-    <Box className={ "header"}>
+    <Box className={ color ? "header header_bg" : "header"}>
         <Box className="navbar_left">
-        <Link to="/"><Text className="navbar_name" style={{fontFamily:"italic",fontWeight:"bold"}}>Anurag Gupta</Text></Link>
+        <Link to="/"><Text className="navbar_name" style={{fontFamily:"italic",fontWeight:"bold"}}>
+        Anurag Gupta</Text></Link>
           <Toggle />
         </Box>
     <Box className="navbar_right">

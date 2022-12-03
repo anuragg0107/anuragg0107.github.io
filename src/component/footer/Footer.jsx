@@ -37,8 +37,8 @@ const Footer = () => {
             {/* <Box className='awesome'> */}
            <Image src={wave} alt="wave" style={{width:"90%",height:"500px"}} />
             {/* </Box> */}<Box className='f_content'>
-            <Text fontSize={"40px"} >Get in touch</Text>
-              <Text fontSize={"40px"} fontWeight="500">Contact me</Text>
+            <Text fontSize={"40px"} className='touch' >Get in touch</Text>
+              <Text fontSize={"40px"} fontWeight="500" className='contact'>Contact me</Text>
               <Box className='blur s_blurl' style={{background:"#abf1ff94"}}></Box>
               <Box>
                 <Box className='contact_call'>

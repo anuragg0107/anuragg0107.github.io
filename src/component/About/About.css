@@ -30,10 +30,11 @@
  .about_me>*{
      font-size: 20px;
  }
- @media screen and (max-width:480px) {
+ @media screen and (max-width:480px){
      .about_head{
          flex-direction: column;
-
+        /* position: relative;
+        top: -10%; */
      }
      .about_container{
          flex-direction: column;
@@ -41,14 +42,21 @@
      .all_about{
         font-size: 50px;
      }
-     .all_about>*{
-        position: relative;
-        top: 140px;
-      }
+     /* .all_about>*{ */
+        /* position: relative;
+        top: 140px; */
+      /* } */
       .image1_container{
         position: relative;
-        top: 100px;
+        top: 50px;
       }
+      .svg_file>svg{
+        max-width: 100%;
+       height: auto;
+      }
+      /* .image1_container>*{
+        width: 10%;
+      } */
       /* .svg_img{
         width: 10px;
         height: 10px;

@@ -15,16 +15,16 @@ const About = () => {
       <SvgImg className="svg_img" />
     </Box>
     <Box className='about_me'>
-      <Text marginBottom="10px">Hello! My name is Anurag Gupta & I enjoy <br/>
-       creating things that live on the internet.<br />
-        I'm a passionate Developer, with strong <br />
-        administrative & communication skills, <br /> good 
-      attention to detail & the ability to <br /> write
+      <Text marginBottom="10px">Hello! My name is Anurag Gupta & I enjoy 
+       creating things that live on the internet.
+        I'm a passionate Developer, with strong 
+        administrative & communication skills,  good 
+      attention to detail & the ability to  write
        efficient code.</Text>
        <hr />
        <Text marginTop={"10px"}>
-       I'm open to Job opportunities. If you think <br /> my skills are 
-       relevant to your job <br /> requirements then  do contact me.
+       I'm open to Job opportunities. If you think  my skills are 
+       relevant to your job  requirements then  do contact me.
        </Text>
     </Box>
    </Box>

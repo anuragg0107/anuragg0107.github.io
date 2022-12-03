@@ -209,4 +209,12 @@ textarea{
     .contact_button{
         font-size: 20px;
     }
+    .touch{
+        position: relative;
+        left: -10%;
+    }
+    .contact{
+        position: relative;
+        left: -10%;
+    }
 } 

@@ -1,6 +1,6 @@
 .intro{
    display: flex;
-   height: 77vh;
+   /* height:150vh; */
    margin-top: 6rem; 
    justify-content: space-evenly;
    margin-bottom: 100px;
@@ -103,26 +103,76 @@
         transform: rotate(0deg);
     }
 }
-@media (width<=480px){
-    .intro{
+@media screen and (max-width:480px){
+   
+   /* .intro_main{
+    margin-bottom: 50px;
+   }  */
+   .intro{
         flex-direction: column;
+       
         /* gap: 7rem; */
         /* height: 64rem; */
     }
     .intro_left{
         position: relative;
-        top: 20%;
+        top: 40%;
     }
     .flex{
         display: flex;
+        position: relative;
+        left:-140%;
+        top: 50%;
     }
     .name{
         width: 400%;
         font-size: 32px;
+        position: relative;
+        left:-140%;
+        top: 50%;
     }
     .last_child{
-        width: 1000%;
-        height: 100px;
-        /* overflow: hidden; */
+        width: 250px;
+        height: auto;
+        position: relative;
+        left:-140%;
+        top: 50%;
+        font-size: 22px;
+    }
+    .intro_type{
+        margin-top: 10px;
+        position: relative;
+        left: -140%;
+        top: 20%;
+        margin-bottom: 80px;
+        
+    }
+    .anchor_intro{
+        width: 100px;
+        /* height: 200px; */
+        position: relative;
+        top: 12%;
+        left: -80%;
+    }
+    .anchor_intro button{
+        width: 160px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .intro_icon{
+        position: relative;
+         left:-10%;
+         /* top: -4%; */
+         /* bottom: 10%; */
+         /* margin-bottom: 90px; */
+    }
+    .intro_icon .intros_icons{
+        transform: scale(2.5);
+    }
+    .intro_img{
+        position: relative;
+        left: 10%;
+        /* top: 14%; */
+        margin-bottom: 50px;
     }
 }

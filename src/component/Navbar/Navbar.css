@@ -3,8 +3,16 @@
    display: flex;
    justify-content: space-between;
    top: 0;
+   left: 0;
    margin-bottom: 2rem;
-   /* position: fixed; */
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+}
+.header_bg {
+  background-color: var(--yellow);
+  transition:all 0.5s;
 }
 .navbar_left{
     display: flex;

@@ -15,7 +15,7 @@ const Intro = () => {
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode;
   return (
-    <div>
+    <div className="intro_main">
         <Box className='intro'>
            <Box className='intro_left'>
                <Box className='intro_name'>
@@ -25,8 +25,12 @@ const Intro = () => {
                  <span className="name" style={{color: darkMode ? 'white' : " "}}>I'M
                      <strong style={{color: darkMode ? 'white' : " "}} style={{color:"rgb(227,64,95)",paddingLeft:"10px"}}>Anurag Gupta</strong>
                      </span>
-                     <span className='last_child' style={{color: darkMode ? 'white' : " "}}>Frontend Developer who learn enjoy to creating things that live on the internet. I'm a passionate Developer, with
-                     strong administrative & communication skills, good attention to detail & the ability to write efficient code</span>
+                     <span className='last_child' style={{color: darkMode ? 'white' : " "}}>
+                     Frontend Developer who learn enjoy to creating things 
+                     that live on the internet. I'm a passionate Developer, with
+                     strong administrative & communication skills,
+                      good attention to detail & the ability to write 
+                      efficient code</span>
                </Box>
                {/* <Box className='intro_desc'> */}
                    
@@ -34,15 +38,17 @@ const Intro = () => {
                <Box className='intro_type' style={{paddingTop:10, textAlign:"left"}}>
             <Type />
            </Box>
-          <a href={Resume} download style={{textDecoration:"none"}}>
+          <a href={Resume} className="anchor_intro" download style={{textDecoration:"none"}}>
           <Button className='button intro_button' borderRadius={"34px"} colorScheme={"orange.400"}>Hire me</Button>
           </a>
            <Box className='intro_icon'>
-           <a href="https://github.com/anuragg0107" target={"_blank"}>
-           <Image src={Github} alt="github" />
+            <a  className=""
+           href="https://github.com/anuragg0107" target={"_blank"}>
+           <Image className="intros_icons" src={Github} alt="github" />
            </a>
-           <a href='https://www.linkedin.com/in/anurag-gupta-215877111' target={"_blank"}>
-           <Image src={Linkedin} alt="linkedin" />
+           <a className="icons"
+            href='https://www.linkedin.com/in/anurag-gupta-215877111' target={"_blank"}>
+           <Image className="intros_icons" src={Linkedin} alt="linkedin" />
            </a>
            </Box>
            </Box>

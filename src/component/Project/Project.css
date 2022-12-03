@@ -1,6 +1,8 @@
 .project_head{
     margin-top: 80px;
     margin-bottom: 140px;
+    position: relative;
+    left: -3%;
   }
   .all_project{
     position: absolute;

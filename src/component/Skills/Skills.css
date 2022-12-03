@@ -54,7 +54,10 @@
     margin-top: 50px;
   }
 
-  @media screen and (max-width:1040px) {
+  @media screen and (max-width:480px) {
+    .start_skills>*{
+        position: relative;
+    }
     .skill_header{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -62,7 +65,14 @@
         margin-top: 20px;
     }
     .all_skills{
-        font-size: 40px;
+        font-size: 36px;
         font-weight: 500;
+       position: relative;
+       left: 60%;
+    }
+    .all_skills>*{
+        border-bottom: 1px solid orange;
+        max-width: 80%;
+        text-align: center;
     }
 }
