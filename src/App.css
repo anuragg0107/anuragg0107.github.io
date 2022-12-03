@@ -15,7 +15,8 @@
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
-    color: var(--black);    
+    color: var(--black);  
+    font-family: Robot;  
 }
 .button{
   border-radius: 34px;

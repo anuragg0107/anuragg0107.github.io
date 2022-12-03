@@ -10,6 +10,7 @@
    width: 100%;
    z-index: 10;
 }
+
 .header_bg {
   background-color: var(--yellow);
   transition:all 0.5s;
@@ -24,6 +25,7 @@
 .navbar_name{
     font-size: 1.3rem;
     font-weight: bold;
+    font-family: BestermindRegular;
 }
 .navbar_right{
 display: flex;

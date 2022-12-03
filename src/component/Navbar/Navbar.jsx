@@ -25,8 +25,13 @@ const Navbar = () => {
     <div>
     <Box className={ color ? "header header_bg" : "header"}>
         <Box className="navbar_left">
-        <Link to="/"><Text className="navbar_name" style={{fontFamily:"italic",fontWeight:"bold"}}>
-        Anurag Gupta</Text></Link>
+        <Link to="/"><Text 
+         className="navbar_name"
+          style={{fontFamily:"BestermindRegular",fontWeight:"bold"}}>
+
+        Anurag Gupta
+        
+        </Text></Link>
           <Toggle />
         </Box>
     <Box className="navbar_right">
