@@ -6,6 +6,7 @@ import Skills from './component/Skills/Skills';
 import Footer from './component/footer/Footer';
 import { useContext } from 'react';
 import { themeContext } from './Context';
+import BackToTop from './component/BackToTop/BackToTop';
 
 function App() {
   const theme= useContext(themeContext)
@@ -22,6 +23,7 @@ function App() {
      <Project />
      <Skills />
      <Footer/>
+     <BackToTop/>
     </div>
   );
 }

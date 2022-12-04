@@ -1,0 +1,26 @@
+.backToTop{
+    /* position: fixed; */
+    position: relative;
+    right: -20%;
+    bottom: 60px;
+    font-size: 10rem;
+    z-index: 999;
+}
+.backToTop button{
+    position: relative;
+    left: -90%;
+    bottom: 60px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 20px;
+}
+
+@media screen and (max-width:480px) {
+     .backToTop{
+        right: -10px;
+        bottom: 50px;
+        font-size: 2.75rem;
+     }
+}

@@ -149,8 +149,8 @@ const Project = () => {
             <Image src="https://media.giphy.com/media/C18YmkT5fXFUdzEswt/giphy.gif"
             alt="dot&key" style={{width:"100%",borderRadius:"10px",position:"relative",transition:"opacity 0.7s 0.3s"}} />
            <Text  style={{background:"#fff",color:"#000",justifyContent:"center"}}>
-        It's my major project Dot & Key first time I am doing alone to make a clone of this beauty product website
-        which is fully responsive, smooth UI.
+        It's group project - Clockify is an time tracker for team or individual. We are finished project in
+        5-6 days and learned of new things being a part of team.
           </Text>
           <Box style={{display:"flex" ,justifyContent:"flex-start"}}>
             <Text style={{color:"orange",fontSize:"19px",fontWeight:"500",width:"92px"}}>Tech Stack </Text>
@@ -193,8 +193,8 @@ const Project = () => {
             <Image src="https://media.giphy.com/media/F06fAcDXGidMqjrGMW/giphy.gif"
             alt="dot&key" style={{width:"100%",borderRadius:"10px",position:"relative",transition:"opacity 0.7s 0.3s"}} />
            <Text  style={{background:"#fff",color:"#000",justifyContent:"center"}}>
-        It's my major project Dot & Key first time I am doing alone to make a clone of this beauty product website
-        which is fully responsive, smooth UI.
+     It is a group project -  Gearbest has got over 1 million SKUs online, more than 1,000 new arrivals per day,  providing plentiful
+       shopping options for users. I am worked in sign-in and sign-up section.
           </Text>
           <Box style={{display:"flex" ,justifyContent:"flex-start"}}>
             <Text style={{color:"orange",fontSize:"19px",fontWeight:"500",width:"92px"}}>Tech Stack </Text>
@@ -237,8 +237,8 @@ const Project = () => {
             <Image src="https://media.giphy.com/media/cMEejuWu8AE6An62Tg/giphy.gif"
             alt="dot&key" style={{width:"100%",borderRadius:"10px",position:"relative",transition:"opacity 0.7s 0.3s"}} />
            <Text  style={{background:"#fff",color:"#000",justifyContent:"center"}}>
-        It's my major project Dot & Key first time I am doing alone to make a clone of this beauty product website
-        which is fully responsive, smooth UI.
+       It is a group project - Fabbag is a beauty experts and addicts driven by our passion for high-quality beauty products and delightful service.
+       I am making home page.
           </Text>
           <Box style={{display:"flex" ,justifyContent:"flex-start"}}>
             <Text style={{color:"orange",fontSize:"19px",fontWeight:"500",width:"140px"}}>Tech Stack </Text>
@@ -246,7 +246,7 @@ const Project = () => {
           </Box>
             <Box className='show_btn'>
               <a target="_blank" className='jss16'
-              href='https://drive.google.com/file/d/1N1OtOpx7T6t8HOb-A99rbcm2KzoPevDF/view' >
+              href='https://drive.google.com/file/d/19h1HCagGpUTpt8Vl0cSlzPDQi-e9Etvd/view?usp=sharing' >
               <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                viewBox="0 0 448 512" className="jss17" height="1em" width="1em"
                 xmlns="http://www.w3.org/2000/svg">

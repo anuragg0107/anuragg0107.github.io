@@ -90,9 +90,9 @@ const Skills = () => {
         </Box>
         <Box className='button skills'>
             <Image className='skill_img'
-            src="https://tazammul.in/static/media/html.6a342d61.svg"
-            alt="html" />
-            <Text  className='skill_text'>HTML</Text>
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
+            alt="nextjs" />
+            <Text  className='skill_text'>Nextjs</Text>
         </Box>
     
     </Box>
