@@ -7,6 +7,7 @@ function GitStats() {
             <a href="https://github.com/anuragg0107">
                 <img src="https://github-readme-stats.vercel.app/api?username=anuragg0107&show_icons=true&locale=en" alt="Anurag Gupta GitHub status"  />
             </a>
+            
         </Box>
     )
 }
