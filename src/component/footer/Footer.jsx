@@ -103,8 +103,9 @@ const Footer = () => {
                      <Box className="blur c_blurl" style={{background:"var(--purple)"}}></Box>
                </form>
            </Box>
-           <Box></Box>
+           
        </Box>
+      
     </div>
   )
 }

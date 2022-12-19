@@ -37,7 +37,8 @@ const Project = () => {
                 <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
               </svg>
               </a>
-              <a target={"_blank"} className="jss16">
+              <a target={"_blank"} className="jss16"
+              href='https://dotandkey1.netlify.app/'>
               <svg viewBox="0 0 24 24" focusable="false" class="jss17" height={"1em"} width="1em">
               <g fill="currentColor">
               <path d="M23.432,10.524C20.787,7.614,16.4,4.538,12,4.6,7.6,4.537,3.213,7.615.568,10.524a2.211,2.211,0,0,0,0,2.948C3.182,16.351,7.507,19.4,11.839,19.4h.308c4.347,0,8.671-3.049,11.288-5.929A2.21,2.21,0,0,0,23.432,10.524ZM7.4,12A4.6,4.6,0,1,1,12,16.6,4.6,4.6,0,0,1,7.4,12Z"></path>
@@ -64,8 +65,8 @@ const Project = () => {
             <Image src="https://media.giphy.com/media/oGg1r3YPQ69hJMegy4/giphy.gif"
             alt="tripsvillas" style={{width:"100%",borderRadius:"10px",position:"relative",transition:"opacity 0.7s 0.3s"}} />
            <Text  style={{background:"#fff",color:"#000",justifyContent:"center"}}>
-        It's my major project Dot & Key first time I am doing alone to make a clone of this beauty product website
-        which is fully responsive, smooth UI.
+      TripsVillas is a one-stop portal to book, Villas, Vacation Rental appartment, Holiday homes and Homestays.
+      I am making by using React and ChakraUI.  
           </Text>
           <Box style={{display:"flex" ,justifyContent:"flex-start"}}>
             <Text style={{color:"orange",fontSize:"19px",fontWeight:"500",width:"140px"}}>Tech Stack </Text>
@@ -73,21 +74,22 @@ const Project = () => {
           </Box>
             <Box className='show_btn'>
               <a target="_blank" className='jss16'
-              href='https://drive.google.com/file/d/1N1OtOpx7T6t8HOb-A99rbcm2KzoPevDF/view' >
+              href='https://drive.google.com/file/d/1Wbd7FhjpAkQF2BwpSeQNDkEVqtndBuAm/view' >
               <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                viewBox="0 0 448 512" className="jss17" height="1em" width="1em"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
               </svg>
               </a>
-              <a target={"_blank"} className="jss16">
+              <a target={"_blank"} className="jss16" 
+              href='https://silent-toes-7433-anuraggupta199418-gmailcom.vercel.app/'>
               <svg viewBox="0 0 24 24" focusable="false" class="jss17" height={"1em"} width="1em">
               <g fill="currentColor">
               <path d="M23.432,10.524C20.787,7.614,16.4,4.538,12,4.6,7.6,4.537,3.213,7.615.568,10.524a2.211,2.211,0,0,0,0,2.948C3.182,16.351,7.507,19.4,11.839,19.4h.308c4.347,0,8.671-3.049,11.288-5.929A2.21,2.21,0,0,0,23.432,10.524ZM7.4,12A4.6,4.6,0,1,1,12,16.6,4.6,4.6,0,0,1,7.4,12Z"></path>
               <circle cx="12" cy="12" r="2"></circle></g></svg>
               </a>
               <a target={"_blank"} className="jss16"
-              href="https://github.com/anuragg0107/green-letter-404.git" >
+              href="https://github.com/anuragg0107/silent-toes-7433.git" >
               <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                viewBox="0 0 640 512" className="jss17" height="1em"  width="1em"
                xmlns="http://www.w3.org/2000/svg">
@@ -116,21 +118,22 @@ const Project = () => {
           </Box>
             <Box className='show_btn'>
               <a target="_blank" className='jss16'
-              href='https://drive.google.com/file/d/1N1OtOpx7T6t8HOb-A99rbcm2KzoPevDF/view' >
+              href='https://drive.google.com/file/d/1G-6hsM9evsd3K56q7lJOgQIs5OEO0jFq/view?usp=sharing' >
               <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                viewBox="0 0 448 512" className="jss17" height="1em" width="1em"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
               </svg>
               </a>
-              <a target={"_blank"} className="jss16">
+              <a target={"_blank"} className="jss16"
+              href='https://ganesh-onlinekfc.netlify.app/'>
               <svg viewBox="0 0 24 24" focusable="false" class="jss17" height={"1em"} width="1em">
               <g fill="currentColor">
               <path d="M23.432,10.524C20.787,7.614,16.4,4.538,12,4.6,7.6,4.537,3.213,7.615.568,10.524a2.211,2.211,0,0,0,0,2.948C3.182,16.351,7.507,19.4,11.839,19.4h.308c4.347,0,8.671-3.049,11.288-5.929A2.21,2.21,0,0,0,23.432,10.524ZM7.4,12A4.6,4.6,0,1,1,12,16.6,4.6,4.6,0,0,1,7.4,12Z"></path>
               <circle cx="12" cy="12" r="2"></circle></g></svg>
               </a>
               <a target={"_blank"} className="jss16"
-              href="https://github.com/anuragg0107/green-letter-404.git" >
+              href="https://github.com/anuragg0107/busy-channel-5933.git" >
               <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                viewBox="0 0 640 512" className="jss17" height="1em"  width="1em"
                xmlns="http://www.w3.org/2000/svg">

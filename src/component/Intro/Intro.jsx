@@ -5,7 +5,7 @@ import {Box,Image,Text,Button } from "@chakra-ui/react";
 import Type from "./Type";
 import "../../App.css";
 import {motion} from "framer-motion";
- import myimg from "../../Assets/myImage.jpg";
+ import myimg from "../../Assets/myImage.png";
  import Github from "../../Assets/github.png";
  import Linkedin from "../../Assets/linkedin.png";
 import { themeContext } from "../../Context";

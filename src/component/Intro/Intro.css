@@ -45,7 +45,9 @@
     border-radius: 50%;  
 }
 .intro_img{
-    height: 300px;
+    border: none;
+    outline: none;
+    /* height: 300px; */
     width: 300px;
     object-fit: cover;
     margin-right: 220px;
