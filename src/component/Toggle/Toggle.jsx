@@ -15,7 +15,7 @@ const Toggle = () => {
     <Moon />
     <Sun />
     <Box className='toggle_button' onClick={handleclick}
-    style={darkMode? {left : "2px"} : {right : "2px"}}
+    style={darkMode?{left : "2px"} : {right : "2px"}}
     ></Box>
     </div>
   )
