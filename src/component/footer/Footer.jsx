@@ -1,4 +1,4 @@
-import React,{useContext, useRef} from 'react';
+import React,{useContext, useRef,useEffect} from 'react';
 import emailjs from '@emailjs/browser';
 import "./Footer.css";
 import {BsTelephoneForward} from "react-icons/bs";
@@ -8,6 +8,8 @@ import "../../App.css";
 import wave from "../../Assets/wave.png";
 import {Image,Box,Text,Input,FormControl,useToast, Button, UnorderedList, ListItem} from "@chakra-ui/react";
 import { themeContext } from "../../Context";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const Footer = () => {
   const theme=useContext(themeContext);
@@ -30,8 +32,12 @@ const Footer = () => {
           console.log(error.text);
       });
   };
+
+  useEffect(()=>{
+    Aos.init({duration:600})
+  },[])
   return (
-    <div id="contact">
+    <div id="contact" data-aos='zoom-in'>
        <Box className='contact_form'>
            <Box className='contact_left'>
             {/* <Box className='awesome'> */}

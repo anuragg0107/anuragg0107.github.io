@@ -14,6 +14,7 @@ const Intro = () => {
   const transition= {duration:2, type:'spring'}
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode;
+  
   return (
     <div className="intro_main">
         <Box className='intro'>

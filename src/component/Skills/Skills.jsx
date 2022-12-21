@@ -1,11 +1,15 @@
 import { Box,Image,Text } from '@chakra-ui/react';
-import React from 'react';
+import React,{useEffect} from 'react';
 import "./Skills.css";
 import "../../App.css";
-
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Skills = () => {
+    useEffect(()=>{
+        Aos.init({duration:600})
+      },[])
   return (
-    <div id="skill" className='start_skills' >
+    <div id="skill" className='start_skills' data-aos='zoom-in' >
     <Box className='all_skills'>
         <Text >Skills & Tools</Text>
     </Box>
