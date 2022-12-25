@@ -105,7 +105,7 @@
         gap: 2.5rem;
         position: relative;
         top:50px;
-       margin-left: -6px;
+       margin-left: -2px;
       }
       .all_project{
         font-size: 50px;
@@ -116,14 +116,14 @@
       }
 
     }
-    @media only screen and (max-width: 1000px) and (min-width: 481px)  {
+    @media only screen and (max-width: 1025px) and (min-width: 481px)  {
       .data{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 2.5rem;
         position: relative;
         top:50px;
-       margin-left: -6px;
+      
       }
       .all_project{
         font-size: 50px;
