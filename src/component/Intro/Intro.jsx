@@ -1,4 +1,4 @@
-import Resume from "./resume.pdf";
+import Resume from "./Anurag-Gupta-Resume.pdf";
 import React, { useContext } from 'react'
 import "./Intro.css";
 import {Box,Image,Text,Button } from "@chakra-ui/react";
