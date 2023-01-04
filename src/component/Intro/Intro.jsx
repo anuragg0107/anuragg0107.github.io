@@ -1,17 +1,16 @@
 import Resume from "./Anurag-Gupta-Resume.pdf";
 import React, { useContext } from 'react'
 import "./Intro.css";
-import {Box,Image,Text,Button } from "@chakra-ui/react";
+import {Box,Image,Button } from "@chakra-ui/react";
 import Type from "./Type";
 import "../../App.css";
-import {motion} from "framer-motion";
  import myimg from "../../Assets/myImage.png";
  import Github from "../../Assets/github.png";
  import Linkedin from "../../Assets/linkedin.png";
 import { themeContext } from "../../Context";
 
 const Intro = () => {
-  const transition= {duration:2, type:'spring'}
+  // const transition= {duration:2, type:'spring'}
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode;
   

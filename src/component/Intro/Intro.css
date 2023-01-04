@@ -105,6 +105,90 @@
         transform: rotate(0deg);
     }
 }
+@media only screen and (max-width: 1100px) and (min-width: 481px){
+    
+    .intro{
+        flex-direction: flex;
+        /* gap: 2.5rem; */
+        /* height: 64rem; */
+    }
+    .intro_left{
+        position: relative;
+        top: 40%;
+    }
+    /* .flex{
+        display: flex;
+        position: relative;
+        left:-140%;
+        top: 50%;
+    } */
+    .name{
+        width: 400%;
+        font-size: 32px;
+        /* position: relative;
+        left:-140%;
+        top: 50%; */
+    }
+
+    .last_child{
+        width: 250px;
+        height: auto;
+        /* position: relative;
+        left:-140%;
+        top: 50%; */
+        font-size: 22px;
+    }
+    /* .intro_type{
+        margin-top: 10px;
+        position: relative;
+        left: -140%;
+        top: 20%;
+        margin-bottom: 80px;
+        
+    } */
+    .anchor_intro{
+        width: 100px; 
+        /* height: 200px; */
+         /* position: relative;
+        top: 12%;
+        left: -80%; */
+    } 
+    /* .anchor_intro button{
+        width: 160px;
+        height: 50px;
+        font-size: 22px;
+    } */
+    .intro_icon{
+        /* position: relative;
+         left:-10%; */
+         /* top: -4%; */
+         /* bottom: 10%; */
+         /* margin-bottom: 90px; */
+    }
+    .intro_icon .intros_icons{
+        transform: scale(2);
+    }
+    .intro_img{
+        position: relative;
+        left: 25%;
+        margin-top: 20px;
+        /* top: 14%; */
+        /* margin-bottom: 50px; */
+        border: none;
+        outline: none;
+        /* height: 300px;
+        width: 300px; */
+        object-fit: cover;
+        /* top: 10%; */
+        /* margin-right: 220px; */
+    }
+    .myimage{
+        border-radius: 50%;  
+        /* height: 200px; */
+        /* width: 300px; */
+    }
+   
+}
 @media screen and (max-width:480px){
    
    /* .intro_main{
