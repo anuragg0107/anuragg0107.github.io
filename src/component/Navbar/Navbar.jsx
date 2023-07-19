@@ -6,6 +6,7 @@ import "../../App.css"
 import {Link} from "react-scroll";
 import {FaBars,FaTimes} from "react-icons/fa";
 import Toggle from '../Toggle/Toggle';
+import Resume from "./Anurag-Gupta-Resume.pdf";
 const Navbar = () => {
     const [data,setData]=useState(false)
     const [color, setColor]=useState(false);
@@ -21,6 +22,17 @@ const Navbar = () => {
      }
     }
     window.addEventListener("scroll",changeColor)
+
+    const handleResume=()=>{
+      const link = document.createElement("a");
+      link.href = `${Resume}`;
+      link.setAttribute(
+     'download',
+     './Anurag-Gupta-Resume.pdf'
+      )
+      link.click();
+      // console.log(link)
+    }
   return (
     <div>
     <Box className={ color ? "header header_bg" : "header"}>
@@ -41,12 +53,19 @@ const Navbar = () => {
   <ListItem className='li'><Link to="about" smooth={true} spy={true}>ABOUT</Link></ListItem>
   <ListItem className='li'> <Link to='project' smooth={true} spy={true}>PROJECT</Link></ListItem>
   <ListItem className='li'><Link to="skill" smooth={true} spy={true}>SKILL</Link></ListItem>
-  {/* <ListItem className='li'> <Link to="contact" smooth={true} spy={true}>CONTACT</Link> </ListItem> */}
+  <ListItem className='li'> <Link to="contact" smooth={true} spy={true}>CONTACT</Link> </ListItem>
           </UnorderedList>
          </Box>
-         <Button className='button navbar_button' borderRadius={"34px"} colorScheme={"orange.400"}>
-         <Link to="contact" smooth={true} spy={true}>CONTACT</Link>
+        
+         {/* <Link to="contact" smooth={true} spy={true}>Resume</Link> */}
+         {/* <a href={Resume} className="anchor_intro" download style={{textDecoration:"none"}}>
+          <Button className='button intro_button new_button' borderRadius={"34px"} colorScheme={"orange.400"}>Resume</Button>
+          </a> */}
+          <Button onClick={handleResume} className='button navbar_button' borderRadius={"34px"} colorScheme={"orange.400"}>
+         {/* <Link to="contact" smooth={true} spy={true}>Resume</Link> */}
+        Resume
          </Button>
+        
          {/* <button className='button navbar_button' colorScheme={"orange.400"}>add</button> */}
     </Box>
  

@@ -35,6 +35,7 @@
   border: none;
   outline: none;
   color: #fff;
+  text-align: center;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
@@ -49,6 +50,12 @@
 .strong{
   color:orange;
   font-family: Robot;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
 }
 
 @media screen and (max-width:480px){

@@ -84,15 +84,15 @@ const Footer = () => {
            <Box className='contact_right'>
                <form ref={form} onSubmit={sendEmail} className='contacts_form'>
                     <div className='inputBox'>
-                    <input type="text" name="user_name"  className='user'  required='required' />
+                    <input type="text" name="user_name"  className='user'  required />
                     <span style={{color: darkMode?'black':""}}>Name</span>
                     </div>
                    <div className='inputBox'>
-                   <input type="email" name="user_email" className='user'  required='required'/>
+                   <input type="email" name="user_email" className='user'  required />
                    <span style={{color: darkMode?'black':""}}>Email</span>
                    </div>
                    <div className='inputBox'>
-                   <textarea name="message" className='user' placeholder='Message'    />
+                   <textarea name="message" className='user' placeholder='Message' required    />
                    {/* <span style={{color: darkMode?'black':""}}>Message</span> */}
                    </div>
                      <input type="submit" value="Send" borderRadius={"34px"}  colorScheme={"orange.400"} className='button send_btn'
