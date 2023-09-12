@@ -1,0 +1,220 @@
+.contact_form{ 
+     /* padding: 0 3rem 0 3rem;  */
+     display: flex;
+    height: 80vh; 
+    padding-top: 3rem;
+     margin-top: 4rem; 
+ } 
+ .contact_form{
+    width: 100%;
+     margin-inline: auto; 
+     max-width: 100%;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    -webkit-box-align: center;
+    align-items: center; 
+    padding: 1.25rem;
+    /* background: rgb(235,248,255); */
+    margin-top: 0px;
+   overflow: hidden;
+ } 
+
+ .contact_right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex:1
+}
+.contact_right .contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.contact_right .inputBox{
+    position: relative;
+    width: 350px;
+}
+.inputBox .user{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    font-size: 1em;
+}
+.inputBox span{
+    position: absolute;
+    left: 70px;
+    padding-top: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+    color: #000;
+    transform: translateX(10px) translateY(-7px);
+    padding: 0 10px;
+    font-size: 0.65em;
+    background: #fff;
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+    letter-spacing: 0.2em;
+}
+textarea{
+    height: 4rem!important;
+}
+.c_blurl{
+    top: 1rem;
+    left: 8rem;
+}
+.contact_call{
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   padding: 0px;
+    /* background: #fff;  */
+} 
+ .contact_call>*{ 
+    /* border-color: #e2e8f0; */
+   overflow-wrap: break-word; 
+    cursor: pointer;
+}
+.contact_button{
+    /* background: #fff; */
+    display: inline-flex;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    height: 48px;
+    min-width: 2.5rem;
+    font-size: 1rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    color: inherit;
+}
+.contact_icon{
+    display: inline-flex;
+    align-self: center;
+    flex-shrink: 0;
+    margin-inline-end: 0.5rem;
+}
+.send_btn{
+    width: 200px;
+    position: relative;
+    left: 8%;
+}
+.contacts_form{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.contacts_form>*{
+    padding: 0 3rem 0 3rem; 
+    margin-bottom: 30px;
+    justify-content: space-around; 
+}
+.contacts_form .send_btn{
+    height: 40px;
+   margin-left: 50px;
+    width: 200px;
+}
+.send_btn:hover{
+    background: #fff;
+}
+.social_icons{
+    display: inline-block!important;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+     border: 1px solid #000;
+     border-radius: 50%;
+}
+
+.social_links>*>*{
+    margin-right: 20px;
+}
+.contact_left{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+.f_content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem;
+
+}
+
+.icon_colour{
+    border-radius: 50%!important;
+    font-size: 1.2em!important;
+    height: 40px!important;
+    line-height: 2rem!important;
+    text-align: center!important;
+    transition: .5s!important;
+    width: 40px!important; 
+    color: rgb(13, 13, 13);
+}
+.icon_colour>*{
+    vertical-align: middle;
+    
+}
+
+@media (width<=480px){
+    .contact_form{
+         padding: 0;
+         flex-direction: column;
+         gap: 5rem;
+         height: 50rem;
+    }
+    .send_btn{
+        position: relative;
+        left: 5%;
+    }
+    .contact_right .user{
+        width: 16rem;
+    }
+    .f_content{
+        transform: scale(0.5);
+    }
+    .inputBox .user{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact_button{
+        font-size: 20px;
+    }
+    .touch{
+        position: relative;
+        left: -10%;
+    }
+    .contact{
+        position: relative;
+        left: -10%;
+    }
+} 

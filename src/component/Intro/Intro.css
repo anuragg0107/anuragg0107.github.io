@@ -1,0 +1,180 @@
+.intro{
+   display: flex;
+   /* height:150vh; */
+   margin-top: 6rem; 
+   justify-content: space-evenly;
+   margin-bottom: 100px;
+}
+.intro_left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+   width: 20%;
+   flex: 1 1;
+  margin-bottom: 30px;
+  margin-left: 160px!important;
+}
+.intro_name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.intro_name:nth-child(1){
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.intro_name:nth-child(2){
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.last_child{
+    color: gray;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+   
+}
+.intro_button{
+    width: 6rem;
+    height: 2rem;
+}
+.myimage{
+    border-radius: 50%;  
+}
+.intro_img{
+    border: none;
+    outline: none;
+    /* height: 300px; */
+    width: 300px;
+    object-fit: cover;
+    margin-right: 220px;
+}
+.intro_type{
+    height: 80px;
+    width: 200px;
+    color: orange;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.intro_icon{
+    margin-top: 0rem;
+    display: flex;
+    gap: 0rem;
+}
+.intro_icon >*{
+    transform: scale(0.3);
+}
+.intro_icon>*:hover{
+    cursor: pointer;
+}
+.wave{
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.2s; /* change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving*/
+    transform-origin: 70% 70%;/* pivot around the bottom-left plam */
+    display: inline-block; 
+}
+@keyframes wave-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(14deg);
+        /* The following five values can be played with to make the waving more or less extreme */
+    }
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    /* Reset for the last half to pause */
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@media screen and (max-width:480px){
+   
+   /* .intro_main{
+    margin-bottom: 50px;
+   }  */
+   .intro{
+        flex-direction: column;
+       
+        /* gap: 7rem; */
+        /* height: 64rem; */
+    }
+    .intro_left{
+        position: relative;
+        top: 40%;
+    }
+    .flex{
+        display: flex;
+        position: relative;
+        left:-140%;
+        top: 50%;
+    }
+    .name{
+        width: 400%;
+        font-size: 32px;
+        position: relative;
+        left:-140%;
+        top: 50%;
+    }
+    .last_child{
+        width: 250px;
+        height: auto;
+        position: relative;
+        left:-140%;
+        top: 50%;
+        font-size: 22px;
+    }
+    .intro_type{
+        margin-top: 10px;
+        position: relative;
+        left: -140%;
+        top: 20%;
+        margin-bottom: 80px;
+        
+    }
+    .anchor_intro{
+        width: 100px;
+        /* height: 200px; */
+        position: relative;
+        top: 12%;
+        left: -80%;
+    }
+    .anchor_intro button{
+        width: 160px;
+        height: 50px;
+        font-size: 22px;
+    }
+    .intro_icon{
+        position: relative;
+         left:-10%;
+         /* top: -4%; */
+         /* bottom: 10%; */
+         /* margin-bottom: 90px; */
+    }
+    .intro_icon .intros_icons{
+        transform: scale(2.5);
+    }
+    .intro_img{
+        position: relative;
+        left: 10%;
+        /* top: 14%; */
+        margin-bottom: 50px;
+    }
+}

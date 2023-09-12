@@ -1,0 +1,118 @@
+.project_head{
+    margin-top: 80px;
+    margin-bottom: 140px;
+    position: relative;
+    left: -3%;
+  }
+  .all_project{
+    position: absolute;
+   transform: translate(-50%,-100%);
+   left: 50%;
+   text-align: center;
+   color: orange;
+   font-size: 3rem;
+   font-weight: 500;
+  }
+  .all_project>*{
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border-bottom: 4px solid orange;
+  }
+  .all_projects{
+      position: absolute;
+      transform: translate(-50%,50%);
+      left: 50%;
+      text-align: center;
+  }
+  .all_projects>*{
+      font-size: 56px;
+      color: #545fc4;
+      font-weight: bold;
+      border-bottom: 1px solid red;
+    }
+    .data{
+      grid-gap: 2.5rem;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 2.5rem;
+      
+    }
+    .data1{
+      border-radius: 6%;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      border: 1px solid black;
+      /* width: 400px; */
+      border: 7px solid var(--orangeCard);
+      background-color: rgba(255,255,255,0.26);
+      box-shadow: var(--boxShadow); 
+      
+    }
+  
+    .project_content{
+      border-radius: 10px;
+      justify-content: center;
+      padding: 1.4rem 0.5rem;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .project_content>img{
+      border-radius: 10px;
+      transition: opacity 0.7s 0.3s;
+       /* width: 00px; */
+    }
+    .show_btn{
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+       width: 100%; 
+    
+    }
+    .show_btn>*{
+      box-sizing: border-box;
+    }
+    .show_btn>a{
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.5s 0.3s , -webkit-transform 0.5s 0.3s;
+    }
+    .jss16{
+      color: #212121;
+      width: 40px;
+      border: 2px solid #212121;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      border-radius: 50%;
+      justify-content: center;
+    }
+  
+    .jss17{
+      font-size: 1.1rem;
+      transition: all 0.2s;
+    }
+    /* .project_btn{
+      justify-content:flex-end;
+      position: relative;
+    }
+     */
+  
+    @media screen and (max-width:480px) {
+      .data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.5rem;
+        position: relative;
+        top:50px
+      }
+      .all_project{
+        font-size: 50px;
+      }
+      .all_project>*{
+        position: relative;
+        top: 50px;
+      }
+
+    }
