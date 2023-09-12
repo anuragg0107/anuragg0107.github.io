@@ -11,6 +11,7 @@
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
+
 ::-webkit-scrollbar{
   width: 10px;
  
