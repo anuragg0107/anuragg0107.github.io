@@ -1,19 +1,19 @@
-import Resume from "./Anurag-Gupta-Resume.pdf";
+import Resume from "./resume.pdf"
 import React, { useContext } from 'react'
 import "./Intro.css";
-import {Box,Image,Button,Text } from "@chakra-ui/react";
+import {Box,Image,Text,Button } from "@chakra-ui/react";
 import Type from "./Type";
 import "../../App.css";
-import myimg from "../../Assets/myImage.png"
+import {motion} from "framer-motion";
+ import myimg from "../../Assets/myImage.png";
  import Github from "../../Assets/github.png";
  import Linkedin from "../../Assets/linkedin.png";
 import { themeContext } from "../../Context";
 
 const Intro = () => {
-  // const transition= {duration:2, type:'spring'}
+  const transition= {duration:2, type:'spring'}
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode;
-  
   return (
     <div className="intro_main">
         <Box className='intro'>
@@ -52,19 +52,10 @@ const Intro = () => {
            </a>
            </Box>
            </Box>
-           <Box className="box">
-            <Box className="content ">
-               <Image src={myimg} alt="myimg" className='myimage' />
-               <Text as='h2'>Anurag Gupta <br/> <span>Frontend Developer</span></Text>
-               <a href={Resume} className="anchor_intro" download style={{textDecoration:"none"}}>
-          <Button className='button intro_button new_button' borderRadius={"34px"} colorScheme={"orange.400"}>Hire me</Button>
-          </a>
-            </Box>
-           </Box>
-           {/* <Box className='intro_img'> */}
+           <Box className='intro_img'>
     {/* <Image1/> */}
-    {/* <Image src={myimg} alt="myimg" className='myimage' /> */}
-    {/* </Box> */}
+    <Image src={myimg} alt="myimg" className='myimage' />
+    </Box>
         </Box>
     </div>
   )

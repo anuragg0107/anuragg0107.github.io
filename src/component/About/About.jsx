@@ -1,15 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {Box,Text} from "@chakra-ui/react";
 import "./About.css";
 import SvgImg from './SvgImg';
-import Aos from 'aos';
-import "aos/dist/aos.css"
 const About = () => {
-  useEffect(()=>{
-    Aos.init({duration:600})
-  },[])
   return (
-    <div id='about' className='about_head' data-aos='zoom-in'>
+    <div id='about' className='about_head'>
    <Box className='all_about'>
     <Text >All
      <strong>About</strong>

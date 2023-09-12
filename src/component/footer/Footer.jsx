@@ -1,4 +1,4 @@
-import React,{useContext, useRef,useEffect} from 'react';
+import React,{useContext, useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import "./Footer.css";
 import {BsTelephoneForward} from "react-icons/bs";
@@ -8,8 +8,6 @@ import "../../App.css";
 import wave from "../../Assets/wave.png";
 import {Image,Box,Text,Input,FormControl,useToast, Button, UnorderedList, ListItem} from "@chakra-ui/react";
 import { themeContext } from "../../Context";
-import Aos from 'aos';
-import "aos/dist/aos.css"
 
 const Footer = () => {
   const theme=useContext(themeContext);
@@ -32,12 +30,8 @@ const Footer = () => {
           console.log(error.text);
       });
   };
-
-  useEffect(()=>{
-    Aos.init({duration:600})
-  },[])
   return (
-    <div id="contact" data-aos='zoom-in'>
+    <div id="contact">
        <Box className='contact_form'>
            <Box className='contact_left'>
             {/* <Box className='awesome'> */}
@@ -84,15 +78,15 @@ const Footer = () => {
            <Box className='contact_right'>
                <form ref={form} onSubmit={sendEmail} className='contacts_form'>
                     <div className='inputBox'>
-                    <input type="text" name="user_name"  className='user'  required />
+                    <input type="text" name="user_name"  className='user'  required='required' />
                     <span style={{color: darkMode?'black':""}}>Name</span>
                     </div>
                    <div className='inputBox'>
-                   <input type="email" name="user_email" className='user'  required />
+                   <input type="email" name="user_email" className='user'  required='required'/>
                    <span style={{color: darkMode?'black':""}}>Email</span>
                    </div>
                    <div className='inputBox'>
-                   <textarea name="message" className='user' placeholder='Message' required    />
+                   <textarea name="message" className='user' placeholder='Message'    />
                    {/* <span style={{color: darkMode?'black':""}}>Message</span> */}
                    </div>
                      <input type="submit" value="Send" borderRadius={"34px"}  colorScheme={"orange.400"} className='button send_btn'
